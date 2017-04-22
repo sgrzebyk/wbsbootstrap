@@ -2,6 +2,9 @@ body {
     padding-top: 50px;
 }
 
+section{
+    padding: 40px;
+}
 .green-text {
     color: #1b6d85 !important;
 }
@@ -20,4 +23,48 @@ body {
 .jumbotron .app-btn{
     width:40%;
     margin-right: 30px;
+}
+
+
+.jumbotron phone{
+    width: 75%;
+}
+
+.demo{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid gainsboro;
+}
+
+#feature{
+    background-color: gainsboro;
+    color: #fff;
+    padding: 10px;
+    overflow: auto;
+}
+
+#feature ul li{
+    font-size: 22px;
+    list-style: none;
+    line-height: 40px;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 30px 0 20px 0;
+}
+
+footer li{
+    float: left;
+    padding: 0 10px 0 10px;
+    list-style: none;
+}
+
+footer a{
+    color: white;
+}
+
+footer p{
+float: right;
 }
